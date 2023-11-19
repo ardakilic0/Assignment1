@@ -9,6 +9,6 @@ void UBaseGameInstance::SetPlayerAgentInfoFor(int PlayerControllerID, FSAgentInf
 
 FSAgentInfo& UBaseGameInstance::GetPlayerAgentInfoFor(int PlayerControllerID, bool& Result)
 {
-	Result = false;
+	Value = false;
 	return PlayerAgentInfo[PlayerControllerID];
 }
